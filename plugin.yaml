@@ -1,0 +1,14 @@
+{
+  "name": "acedatacloud-midjourney",
+  "version": "1.0.0",
+  "description": "Midjourney text-to-image generation through your Ace Data Cloud account.",
+  "author": "AceDataCloud",
+  "requires_hermes": ">=0.21.6",
+  "provides_tools": [
+    "acedata_midjourney_generate",
+    "acedata_midjourney_task"
+  ],
+  "requires_env": [
+    "ACEDATACLOUD_API_KEY"
+  ]
+}
