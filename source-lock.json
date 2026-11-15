@@ -1,0 +1,36 @@
+{
+  "canonical_repository": "https://github.com/AceDataCloud/AceDataCloudMediaHermes",
+  "canonical_commit": "4ebf0fa803b92a1bc8b41fb4d4cd3ce3aacf06a7",
+  "generator": "scripts/export_service.py",
+  "service": "midjourney",
+  "consumer_repository": "https://github.com/AceDataCloud/MidjourneyHermes",
+  "canonical_contract": "services/midjourney.json",
+  "identity_map": {
+    "tool_prefix": [
+      "acedatacloud_midjourney",
+      "acedatacloud_single_midjourney"
+    ],
+    "toolset": [
+      "acedatacloud-midjourney",
+      "acedatacloud-single-midjourney"
+    ],
+    "native_image_provider": null
+  },
+  "transport_sha256": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+  "canonical_operation_sha256": "d4be3dd10b7b42a3b16959c9661b262639915bcc2709e2670076105a3d2a456e",
+  "generated_files": {
+    "__init__.py": "befe7ccc20f9dc0cd05d3c62fe25f036ab59371a82de41ef4edbc581af803aa5",
+    "client.py": "2653fd9275cbda09beff43968d943baa82df83656217d08ddeb9521cc99b1d7f",
+    "image_provider.py": "183dc1f72fa1905364466aa30da14d82c074d3484ee6a6a6a5b739a62342490c",
+    "services/midjourney.json": "13eb398bbdb6fffb6904b73aeee47db5c9d79b030cf5134ef6ba6f24f5341aec",
+    "plugin.yaml": "1896be647ff1f3cdf5400358c82443a81ebc6a98cc6b63fa3c2598cc5b129cf5",
+    "tests/test_contracts.py": "fa834427da679d6abb5a4a697f2d8a5ea18fcd9589aef7cb7077c3ebf5ff7dd3",
+    "tests/test_registration.py": "a3b2904d16e44ab70696555165f6b05465cfc978b5fe5160cbca9acebc22845d",
+    "tests/test_source_profile.py": "d29b78f9671e46fccfa1239c8f864ae282c19c8f7d9411b8b2ac2138373336ba",
+    "scripts/check_runtime.py": "be594c81cf4436cc9689babae0344815268aab33345afc391221079be151e90f",
+    "LICENSE": "72d30730d068e067be58878959bac2450f5a05f2b2e3c365cdc13a0181635c3c",
+    ".github/workflows/validate.yml": "28774b237909f3c5038ffdaa48c3d589ce8b9bfcc0c00956b5510129fe3c4fe9",
+    "README.md": "841670a3ac96e838b24af5f8362644459d4265bbe2965d582c932062c4f8f3ef",
+    "readme/README_zh_Hans.md": "e86193dc3bec73df2ddd0fe62f96361a3cc62937d4c0e75b338b02471c668787"
+  }
+}
